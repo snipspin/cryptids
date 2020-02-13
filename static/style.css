@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 220, 105);
+}
+header {
+    text-align:center;
+    width: 100%;
+    border: indigo 1px solid;
+    border-radius: 10vw;
+}
+nav {
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+nav > ul > li {
+    display: inline-flex;
+    margin-left: 1vw;
+    border: indigo 1px solid;
+    border-radius: 10vw;
+}
+a {
+    padding: 0.5vh 0.5vw;
+    margin: 1vh 1vw;
+    color: black;
+    font-size: larger;
+}
+a:hover {
+    background-color: blanchedalmond;
+}
+
+.container {
+    background-color: rgb(196, 37, 37);
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: indigo 1px solid;
+    border-radius: 10vw;
+    padding-bottom: 1vh;
+}
